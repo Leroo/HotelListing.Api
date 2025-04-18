@@ -3,8 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
+//The following a simple CRUP API from a Udemy course I intend to finish
+
 namespace HotelListing.Api.Controllers
 {
+
     [Route("api/[controller]")]
     [ApiController]
     public class HotelsController : ControllerBase
